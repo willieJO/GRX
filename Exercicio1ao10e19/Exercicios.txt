@@ -1,0 +1,21 @@
+RESPOSTAS
+1-A
+2-D
+3-B
+4-E
+5-C
+6-D
+7-CRUD referencia a; Create, Read, Update,Delete. São funções principais usadas em 
+banco de dados.
+8-Front-End se referencia no desenvolvimento de interfaces gráficas, para melhorar
+a visualização do usuário. Algumas linguagens que são usadas no front-end são HTML, 
+CSS, e javascript
+9-Back-end se referencia a estrutura do sistema, diferente do front-end aonde o foco
+é na interface gráfica, no back-end o foco é diretamente na operação do sistema, funções
+logica do sistema, e comunicação do banco de dados. As linguagens que trabalham
+com o back-end são Python, javascript, Ruby,java,php.
+
+19-O Git,tem uma função de nos dar um historico  de alterações do nosso codigo,
+e por meio disso, podemos voltar o nosso codigo a uma data especifica sem muitas
+dificuldades, além disso, conseguimos saber quais foram as mudanças feitas no nosso
+codigo.

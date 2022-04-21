@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet"href="./style.css">
+    <script src="./script.js" defer="defer"></script>
+
+    <title>GRX</title>
+</head>
+
+<body>
+    <div class="container"> 
+        <div class="header">
+            <img src="img/grx.png" class="imagem_grx">
+
+        </div>
+        <form class="form"id="form">
+            <div class="formControl">
+                <label>Nome</label>
+                <input type="text"id='nome'placeholder="Digite o nome">
+                
+                
+            </div>
+            <div class="formControl">
+                <label>Idade</label>
+                <input type="number"placeholder="Digite a idade."id='idade'min=0 oninput="validity.valid||(value='');">
+                
+            </div>
+            <button onclick="pessoa.salvar()"id="btn1">Salvar</button>
+        </form>
+        <div class="div-principal">
+            <table border="1">
+                <thead> 
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th class="button_idade" onclick="pessoa.ordenarIdade()"id='clickidade'>Idade</th>
+                    <th>Opção</th>
+                </thead>
+                <tbody id="tbody">
+                   
+                </tbody>
+            </table>
+            
+            
+        </div>
+        
+
+    </div>
+    
+    
+</body>
+</html>
